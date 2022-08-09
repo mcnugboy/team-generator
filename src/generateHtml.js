@@ -10,7 +10,7 @@ const createManager = function (manager) {
         
     </div>
     `;
-}
+};
 
 const createEngineer = function (engineer) {
     return `
@@ -24,7 +24,7 @@ const createEngineer = function (engineer) {
         
     </div>
     `;
-}
+};
 
 const createIntern = function (intern) {
     return `
@@ -38,7 +38,7 @@ const createIntern = function (intern) {
         
     </div>
     `;
-}
+};
 
 dataOptions = (data) => {
     info = [];
@@ -66,7 +66,7 @@ dataOptions = (data) => {
 
     const teamInfo = generatePage(employeeCards);
     return teamInfo;
-}
+};
 
 const generatePage = function (employeeCards) {
     return `
@@ -90,6 +90,6 @@ const generatePage = function (employeeCards) {
     </div>
 </body>
 </html>`
-}
+};
 
 module.exports = dataOptions;
