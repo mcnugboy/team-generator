@@ -18,7 +18,7 @@ const managerTeam = () => {
         {
             type: "input",
             name: "id",
-            message: "Enter the manager's ID."
+            message: "Enter the manager's ID:"
         },
         {
             type: "input",
@@ -28,7 +28,7 @@ const managerTeam = () => {
         {
             type: "input",
             name: "managerId",
-            message: "Enter the manager's id tag."
+            message: "Enter the manager's id tag:"
         }
 
     ])
@@ -57,7 +57,7 @@ const engineerPrompt = () => {
         {
             type: "input",
             name: "id",
-            message: "Enter your employee's id."
+            message: "Enter your employee's id:"
         },
         {
             type: "input",
@@ -67,7 +67,7 @@ const engineerPrompt = () => {
         {
             type: "input",
             name: "github",
-            message: "Enter your engineer's github username."
+            message: "Enter your engineer's GitHub username:"
         },
 
     ])
@@ -99,7 +99,7 @@ const internPrompt = () => {
         {
             type: "input",
             name: "id",
-            message: "Enter your intern's id."
+            message: "Enter your intern's id:"
         },
         {
             type: "input",
@@ -109,7 +109,7 @@ const internPrompt = () => {
         {
             type: "input",
             name: "school",
-            message: "Enter your school."
+            message: "Enter your school:"
         },
     ])
     .then(answers => {
