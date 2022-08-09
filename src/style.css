@@ -1,0 +1,15 @@
+.nav{
+    background-color: #db552c;
+    color:white;
+}
+
+.employees{
+    background-color: brown;
+    color: white;
+}
+
+p{
+    border-style: solid;
+    padding: 5px;
+    margin: 10px;
+}
